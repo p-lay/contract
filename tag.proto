@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-package play;
-
-message Tag {
-    string name = 1;
-}

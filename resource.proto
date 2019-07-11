@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package play;
-
-message BaseResource {
-    string url = 1;
-    string type = 2; // TODO: "image" | "video"
-    string description = 3;
-}
