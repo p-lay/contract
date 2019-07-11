@@ -2,7 +2,6 @@ export default {
   vue: {
     addVue: {
       req: 'AddVueReq',
-      res: '',
     },
     getVue: {
       req: 'GetVueReq',
@@ -10,12 +9,11 @@ export default {
     },
     updateVue: {
       req: 'UpdateVueReq',
-      res: '',
     },
+    getVueList: {},
   },
   qiniu: {
     getQiniuToken: {
-      req: '',
       res: 'GetQiniuTokenRes',
     },
   },
