@@ -10,7 +10,9 @@ export default {
     updateVue: {
       req: 'UpdateVueReq',
     },
-    getVueList: {},
+    getMemoriaList: {
+      res: 'GetMemoriaListRes'
+    },
   },
   qiniu: {
     getQiniuToken: {
