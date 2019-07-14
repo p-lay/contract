@@ -37,5 +37,9 @@ export interface VueAppendInfo {
 export interface GetVueRes extends BaseVue, VueAppendInfo {}
 
 export interface UpdateVueReq extends BaseVue {
-  vue_id: number
+  id: number
+}
+
+export interface DeleteMemoriaReq {
+  id: number
 }

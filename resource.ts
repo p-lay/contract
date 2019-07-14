@@ -16,4 +16,6 @@ export interface GetResourceRes {
   resources: ({ id: number } & BaseResource)[]
 }
 
-export interface UpdateResourceReq {}
+export interface DeleteResourceReq {
+  ids: number[]
+}

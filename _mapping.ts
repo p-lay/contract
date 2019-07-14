@@ -13,6 +13,9 @@ export default {
     getMemoriaList: {
       res: 'GetMemoriaListRes'
     },
+    deleteMemoria:{
+      req: 'DeleteMemoriaReq'
+    }
   },
   qiniu: {
     getQiniuToken: {
