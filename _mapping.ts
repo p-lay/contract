@@ -1,4 +1,13 @@
 export default {
+  user: {
+    getUserInfo: {
+      req: 'GetUserInfoReq',
+      res: 'GetUserInfoRes',
+    },
+    updateUserInfo: {
+      req: 'UpdateUserInfoReq',
+    },
+  },
   vue: {
     addVue: {
       req: 'AddVueReq',
@@ -11,11 +20,11 @@ export default {
       req: 'UpdateVueReq',
     },
     getMemoriaList: {
-      res: 'GetMemoriaListRes'
+      res: 'GetMemoriaListRes',
     },
-    deleteMemoria:{
-      req: 'DeleteMemoriaReq'
-    }
+    deleteMemoria: {
+      req: 'DeleteMemoriaReq',
+    },
   },
   qiniu: {
     getQiniuToken: {
