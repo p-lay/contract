@@ -14,6 +14,7 @@ export interface GetUserInfoReq {
 
 export interface GetUserInfoRes extends UserInfo {
   userId: number
+  roleId: number
 }
 
 export interface UpdateUserInfoReq extends UserInfo {

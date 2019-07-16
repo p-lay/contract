@@ -5,4 +5,4 @@ export type CommonRes<T = any> = Promise<{
   data: T
 }>
 
-export type Code = 1000 | 2000
+export type Code = 1000 | 2000 | 500
