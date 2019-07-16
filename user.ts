@@ -5,6 +5,7 @@ export interface UserInfo {
   province: string
   city: string
   country: string
+  language: string
 }
 
 export interface GetUserInfoReq {
