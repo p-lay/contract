@@ -1,7 +1,7 @@
 import { BaseResource } from './resource'
 import { Tag } from './tag'
 
-export interface BaseVue {
+export interface BaseMemoria {
   title: string
   feeling?: string
   resources: BaseResource[]
@@ -10,11 +10,11 @@ export interface BaseVue {
 }
 
 // user info should be set in request
-export interface AddVueReq extends BaseVue {
+export interface AddMemoriaReq extends BaseMemoria {
   user_id: number
 }
 
-export interface GetVueReq {
+export interface GetMemoriaReq {
   vue_id: number
 }
 
@@ -25,7 +25,7 @@ export interface GetMemoriaListRes {
   }[]
 }
 
-export interface VueAppendInfo {
+export interface MemoriaAppendInfo {
   vue_id: number
   comments: string[]
   // TODO: should be type User not number
@@ -34,9 +34,9 @@ export interface VueAppendInfo {
   update_time: number
 }
 
-export interface GetVueRes extends BaseVue, VueAppendInfo {}
+export interface GetMemoriaRes extends BaseMemoria, MemoriaAppendInfo {}
 
-export interface UpdateVueReq extends BaseVue {
+export interface UpdateMemoriaReq extends BaseMemoria {
   id: number
 }
 

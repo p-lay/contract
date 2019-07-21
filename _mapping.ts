@@ -11,16 +11,16 @@ export default {
       req: 'UpdateUserInfoReq',
     },
   },
-  vue: {
-    addVue: {
-      req: 'AddVueReq',
+  memoria: {
+    addMemoria: {
+      req: 'AddMemoriaReq',
     },
-    getVue: {
-      req: 'GetVueReq',
-      res: 'GetVueRes',
+    getMemoria: {
+      req: 'GetMemoriaReq',
+      res: 'GetMemoriaRes',
     },
-    updateVue: {
-      req: 'UpdateVueReq',
+    updateMemoria: {
+      req: 'UpdateMemoriaReq',
     },
     getMemoriaList: {
       res: 'GetMemoriaListRes',
