@@ -1,4 +1,7 @@
 export default {
+  _config: {
+    promiseGenericRes: 'CommonRes',
+  },
   user: {
     getUserInfo: {
       req: 'GetUserInfoReq',
@@ -27,8 +30,26 @@ export default {
     },
   },
   qiniu: {
+    _config: {
+      disableEntity: true
+    },
     getQiniuToken: {
       res: 'GetQiniuTokenRes',
+    },
+  },
+  resource: {
+    _config: {
+      disableController: true,
+    },
+    addResource: {
+      req: 'AddResourceReq',
+    },
+    getResource: {
+      req: 'GetResourceReq',
+      res: 'GetResourceRes',
+    },
+    deleteResource: {
+      req: 'DeleteResourceReq',
     },
   },
 }
