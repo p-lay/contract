@@ -18,6 +18,10 @@ export interface GetMemoriaReq {
   id: number
 }
 
+export interface GetMemoriaListReq {
+  tag_ids?: number[]
+  create_by?: number
+}
 export interface GetMemoriaListRes {
   memorias: {
     title: string
