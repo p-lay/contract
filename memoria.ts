@@ -15,7 +15,7 @@ export interface AddMemoriaReq extends BaseMemoria {
 }
 
 export interface GetMemoriaReq {
-  vue_id: number
+  id: number
 }
 
 export interface GetMemoriaListRes {
@@ -26,7 +26,7 @@ export interface GetMemoriaListRes {
 }
 
 export interface MemoriaAppendInfo {
-  vue_id: number
+  id: number
   comments: string[]
   // TODO: should be type User not number
   create_by: number
