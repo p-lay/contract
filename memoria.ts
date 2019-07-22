@@ -7,6 +7,7 @@ export interface BaseMemoria {
   resources: BaseResource[]
   tags: Tag[]
   music?: string
+  create_time?: number
 }
 
 // user info should be set in request
@@ -34,7 +35,6 @@ export interface MemoriaAppendInfo {
   comments: string[]
   // TODO: should be type User not number
   create_by: number
-  create_time: number
   update_time: number
 }
 
