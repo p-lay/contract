@@ -1,5 +1,6 @@
 export interface BaseResource {
   url: string
+  thumb?: string
   type?: 'image' | 'video'
   description?: string
 }
