@@ -42,6 +42,7 @@ export interface GetMemoriaRes extends BaseMemoria, MemoriaAppendInfo {}
 
 export interface UpdateMemoriaReq extends BaseMemoria {
   id: number
+  existResourceIds?: number[]
 }
 
 export interface DeleteMemoriaReq {
