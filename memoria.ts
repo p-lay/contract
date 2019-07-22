@@ -5,6 +5,7 @@ export interface BaseMemoria {
   title: string
   feeling?: string
   resources: BaseResource[]
+  thumb?: string
   tags: Tag[]
   music?: string
   create_time?: number
@@ -27,6 +28,7 @@ export interface GetMemoriaListRes {
   memorias: {
     title: string
     id: number
+    thumb: string
   }[]
 }
 
