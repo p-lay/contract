@@ -9,6 +9,7 @@ export interface BaseMemoria {
   tags: Tag[]
   music?: string
   create_time?: number
+  isLargeData?: boolean
 }
 
 // user info should be set in request
@@ -32,6 +33,7 @@ export interface GetMemoriaListRes {
     feeling: string
     creator: string
     createTime: number
+    isLargeData: boolean
   }[]
 }
 
