@@ -9,5 +9,6 @@ export type CommonRes<T = any> = Promise<{
  * 500: server error;
  * 1000: empty value not exception;
  * 2000: no data in table exception;
+ * 3000: data has relation, cannot be delete
  */
-export type Code = 1000 | 2000 | 500
+export type Code = 500 | 1000 | 2000 | 3000

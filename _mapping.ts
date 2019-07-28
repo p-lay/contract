@@ -32,7 +32,7 @@ export default {
   },
   qiniu: {
     _config: {
-      disableEntity: true
+      disableEntity: true,
     },
     getQiniuToken: {
       res: 'GetQiniuTokenRes',
@@ -51,6 +51,18 @@ export default {
     },
     deleteResource: {
       req: 'DeleteResourceReq',
+    },
+  },
+  tag: {
+    addTag: {
+      req: 'AddTagReq',
+    },
+    deleteTag: {
+      req: 'DeleteTagReq',
+    },
+    searchTag: {
+      req: 'SearchTagReq',
+      res: 'SearchTagRes'
     },
   },
 }
