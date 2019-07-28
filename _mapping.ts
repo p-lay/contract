@@ -22,9 +22,9 @@ export default {
     updateMemoria: {
       req: 'UpdateMemoriaReq',
     },
-    getMemoriaList: {
-      req: 'GetMemoriaListReq',
-      res: 'GetMemoriaListRes',
+    searchMemoria: {
+      req: 'SearchMemoriaReq',
+      res: 'SearchMemoriaRes',
     },
     deleteMemoria: {
       req: 'DeleteMemoriaReq',

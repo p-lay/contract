@@ -21,11 +21,11 @@ export interface GetMemoriaReq {
   id: number
 }
 
-export interface GetMemoriaListReq {
+export interface SearchMemoriaReq {
   tag_ids?: number[]
   create_by?: number
 }
-export interface GetMemoriaListRes {
+export interface SearchMemoriaRes {
   memorias: {
     title: string
     id: number
