@@ -5,7 +5,7 @@ export interface Tag {
 }
 
 export interface AddTagReq {
-  name: string
+  names: string[]
 }
 
 export interface DeleteTagReq {
