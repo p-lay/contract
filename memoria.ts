@@ -25,18 +25,23 @@ export interface SearchMemoriaReq {
   tag_ids?: number[]
   create_by?: number
 }
-export interface SearchMemoriaRes {
-  memorias: {
-    title: string
+
+export interface SearchMemoriaItem {
+  title: string
+  id: number
+  thumb: string
+  feeling: string
+  creator: {
     id: number
-    thumb: string
-    feeling: string
-    creator: string
-    createTime: number
-    isLargeData: boolean
-    resourceCount: number
-    tagNames: string[]
-  }[]
+    name: string
+  }
+  createTime: number
+  isLargeData: boolean
+  resourceCount: number
+  tagNames: string[]
+}
+export interface SearchMemoriaRes {
+  memorias: SearchMemoriaItem[]
 }
 
 export interface MemoriaAppendInfo {
