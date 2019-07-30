@@ -34,6 +34,8 @@ export interface SearchMemoriaRes {
     creator: string
     createTime: number
     isLargeData: boolean
+    resourceCount: number
+    tagNames: string[]
   }[]
 }
 
