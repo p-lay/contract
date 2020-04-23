@@ -62,7 +62,21 @@ export default {
     },
     searchTag: {
       req: 'SearchTagReq',
-      res: 'SearchTagRes'
+      res: 'SearchTagRes',
+    },
+  },
+  expressTask: {
+    addExpressTask: {
+      req: 'AddExpressTaskReq',
+    },
+    removeExpressTask: {
+      req: 'RemoveExpressTaskReq',
+    },
+    updateExpressTask: {
+      req: 'UpdateExpressTaskReq',
+    },
+    getExpressTask: {
+      res: 'GetExpressTaskRes',
     },
   },
 }
