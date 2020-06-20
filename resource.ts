@@ -4,6 +4,7 @@ export interface BaseResource {
   thumb?: string
   type?: 'image' | 'video'
   description?: string
+  duration?: string // video duration
 }
 
 export interface AddResourceReq {
