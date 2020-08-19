@@ -79,4 +79,14 @@ export default {
       res: 'GetExpressTaskRes',
     },
   },
+  coupon: {
+    encryptCoupon: {
+      req: 'EncryptCouponReq',
+      res: 'EncryptCouponRes',
+    },
+    decryptCoupon: {
+      req: 'DecryptCouponReq',
+      res: 'DecryptCouponRes',
+    },
+  },
 }
