@@ -88,5 +88,9 @@ export default {
       req: 'DecryptCouponReq',
       res: 'DecryptCouponRes',
     },
+    useCoupon: {
+      req: 'UseCouponReq',
+      res: 'UseCouponRes',
+    },
   },
 }
